@@ -51,8 +51,9 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
-Assets/Packs/Epic Toon FX/Upgrade/ETFX URP Upgrade (2020.3.45f1).unitypackage.meta
-Assets/Packs/Epic Toon FX/Upgrade/ETFX Standard Materials.unitypackage.meta
-Assets/Packs/Epic Toon FX/Upgrade/ETFX 2019.3 URP Fix.unitypackage.meta
-Assets/Packs/Epic Toon FX/Upgrade/ETFX 2019.2.3f1 LWRP Upgrade.unitypackage.meta
+
 UserSettings/EditorUserSettings.asset
+
+Assets/StreamingAssets/fantasyhorizons-1c68661953fc.json
+Assets/StreamingAssets/fantasyhorizons-1c68661953fc.meta
+
