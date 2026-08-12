@@ -1,0 +1,909 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceded6f9c344bb344a2181028e87c686, type: 3}
+  m_Name: ProjectPrefabsHolder
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 21300000, guid: 65fc4762aed90e54fb2291312e06b4ce, type: 3}
+    - {fileID: 21300000, guid: d69a986731c6f1d47b1563decd192af8, type: 3}
+    - {fileID: 21300000, guid: b2e225c904f2dd445ae021efefb41dbe, type: 3}
+    - {fileID: 21300000, guid: fb7d7fa94d67749468cd6ab26a4d4abd, type: 3}
+    - {fileID: 21300000, guid: 08fea96e4f31f074ca2a8f811b48d4e6, type: 3}
+    - {fileID: 21300000, guid: aa4acba6ae270744face29ac462e3614, type: 3}
+    - {fileID: 21300000, guid: 5566111e257272649882fdb994639ff2, type: 3}
+    - {fileID: 21300000, guid: d9211fed99094044aab3f99da1bc10eb, type: 3}
+    - {fileID: 21300000, guid: c2c35a83747b5c542853c79db6943952, type: 3}
+    - {fileID: 21300000, guid: 7328059cdab66c948831c081e697e5cc, type: 3}
+    - {fileID: 21300000, guid: 31d04270859ae1b4dac06075763dffaa, type: 3}
+    - {fileID: 21300000, guid: 3e1e94e2a1623fe4ab34474c45285a5c, type: 3}
+    - {fileID: 21300000, guid: 45aca51b77c7bcf4395cbdc685c17354, type: 3}
+    - {fileID: 21300000, guid: e2ed8d54fc6411a419dfdfdb1f07e592, type: 3}
+    - {fileID: 21300000, guid: cf002dedec0287143acd189371ffe2c8, type: 3}
+    - {fileID: 21300000, guid: ac9f94b26b3999d4c8f15138b51c0e9d, type: 3}
+    - {fileID: 21300000, guid: a3e3583dd67ce974eaf98d66b9ee414a, type: 3}
+    - {fileID: 21300000, guid: 70c2ebdfd86fdfa42a724fd86d4f415b, type: 3}
+    - {fileID: 21300000, guid: 3a53d057494f81444847e611a8982cfa, type: 3}
+    - {fileID: 21300000, guid: f8e96975837a0984cb2c7e42f3b2194f, type: 3}
+    - {fileID: 21300000, guid: 028e570a9141cf946a8a9eeedca35cb7, type: 3}
+    - {fileID: 21300000, guid: 6b2a9c88c0de8ec48bab62907e7eb4f6, type: 3}
+    - {fileID: 21300000, guid: 259c6824c3abe634eb7dd1276f9bdded, type: 3}
+    - {fileID: 21300000, guid: 24bea8a924cf8d947bdebb5e69a0a97a, type: 3}
+    - {fileID: 21300000, guid: a104f5c271ae00a48864ba2e698a14a2, type: 3}
+    - {fileID: 21300000, guid: cead2da957e7b1d468e33156aedec911, type: 3}
+    - {fileID: 21300000, guid: adceddf3bdacc7b4eac34b67950368ab, type: 3}
+    - {fileID: 21300000, guid: 0ff2ce1a9b0794c47b77674cbe480710, type: 3}
+    - {fileID: 21300000, guid: b515fac92fa6f4a4999ccf5ae554202f, type: 3}
+    - {fileID: 21300000, guid: 9bd7a038268f07a4f9e53c42f09207a4, type: 3}
+    - {fileID: 21300000, guid: f92c249406652f2408c1efd0f23a962c, type: 3}
+    - {fileID: 21300000, guid: f089352cc2eb5b84781555722519ec91, type: 3}
+    - {fileID: 21300000, guid: d355ec91eaffa0641ae00a4d392ca7a5, type: 3}
+    - {fileID: 21300000, guid: d9f9197a2bca983459e84d3775258c8a, type: 3}
+    - {fileID: 21300000, guid: 9b52d33eeceb6a74787d7f137597041e, type: 3}
+    - {fileID: 21300000, guid: c52e61332cc145646a0fe21c1eaad2e8, type: 3}
+    - {fileID: 21300000, guid: fdaa46028a4b01a4799d3b4fa5a2cc08, type: 3}
+    - {fileID: 21300000, guid: fcb17f3c0bc005d4cb4e3e95e2741e4b, type: 3}
+    - {fileID: 21300000, guid: 16571a4495860664fa473eee11a20fd1, type: 3}
+    - {fileID: 2100000, guid: a0f8c2a5c7bec12418850692bc0ab1bf, type: 2}
+    - {fileID: 21300000, guid: 93fcb13ebff821b48bcfc02de25dc75c, type: 3}
+    - {fileID: 21300000, guid: 22a3a80617e0c414eb30f682cba35ffc, type: 3}
+    - {fileID: 2100000, guid: 6a9ae88120d91a049b67c788e0dd4421, type: 2}
+    - {fileID: 21300000, guid: 2599d91a26d3f33438393aa17769486e, type: 3}
+    - {fileID: 21300000, guid: b4a328010b2d00a4c86db35a1644c4d0, type: 3}
+    - {fileID: 2100000, guid: 122c49a699f48884bb72822144731bc3, type: 2}
+    - {fileID: 21300000, guid: 77d812d7f826db446b095a56d91b9608, type: 3}
+    - {fileID: 21300000, guid: 193b5236d66f87a46a6ab2b9385997b3, type: 3}
+    - {fileID: 2100000, guid: ca66195a63a7e9442b5e08e4e4cfd7bc, type: 2}
+    - {fileID: 8722713657861006067, guid: e4aa85ea3bea05345a45147104a6653b, type: 3}
+    - {fileID: 3838221401487558718, guid: 40f731aa3d1a83e4697858181281780e, type: 3}
+    - {fileID: 3360412156087601799, guid: 7210f2c4c8e214c44bc184895ef668d3, type: 3}
+    - {fileID: 1570988094827145192, guid: bba8ee855931e2b4392fc8e53d7c2f7f, type: 3}
+    - {fileID: 1570988094827145192, guid: 18ec85bf2dff51b48bdab9742810fa2f, type: 3}
+    - {fileID: 1570988094827145192, guid: 4395a14bc4c6cc9419187ccc1813ac91, type: 3}
+    - {fileID: 1570988094827145192, guid: ec5be680a5a7fb64e9b099c622f5f349, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: <UpgradesIcons>k__BackingField
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[StatsType, GameCore],[UnityEngine.Sprite,
+        UnityEngine.CoreModule]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[StatsType, GameCore]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 33
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 9
+    - Name: $v
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 11
+    - Name: $v
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 13
+    - Name: $v
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 14
+    - Name: $v
+      Entry: 10
+      Data: 13
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 15
+    - Name: $v
+      Entry: 10
+      Data: 14
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 10
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 17
+    - Name: $v
+      Entry: 10
+      Data: 16
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 18
+    - Name: $v
+      Entry: 10
+      Data: 17
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 19
+    - Name: $v
+      Entry: 10
+      Data: 18
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 20
+    - Name: $v
+      Entry: 10
+      Data: 19
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 21
+    - Name: $v
+      Entry: 10
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 22
+    - Name: $v
+      Entry: 10
+      Data: 21
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 23
+    - Name: $v
+      Entry: 10
+      Data: 22
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 24
+    - Name: $v
+      Entry: 10
+      Data: 23
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 25
+    - Name: $v
+      Entry: 10
+      Data: 24
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 26
+    - Name: $v
+      Entry: 10
+      Data: 25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 27
+    - Name: $v
+      Entry: 10
+      Data: 26
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 28
+    - Name: $v
+      Entry: 10
+      Data: 27
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 29
+    - Name: $v
+      Entry: 10
+      Data: 28
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 30
+    - Name: $v
+      Entry: 10
+      Data: 29
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32
+    - Name: $v
+      Entry: 10
+      Data: 30
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 33
+    - Name: $v
+      Entry: 10
+      Data: 31
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 34
+    - Name: $v
+      Entry: 10
+      Data: 32
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <AdditionalUpgradesIcons>k__BackingField
+      Entry: 7
+      Data: 2|System.Collections.Generic.Dictionary`2[[StatsType, GameCore],[UnityEngine.Sprite,
+        UnityEngine.CoreModule]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32
+    - Name: $v
+      Entry: 10
+      Data: 33
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 30
+    - Name: $v
+      Entry: 10
+      Data: 34
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 33
+    - Name: $v
+      Entry: 10
+      Data: 35
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 34
+    - Name: $v
+      Entry: 10
+      Data: 36
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 29
+    - Name: $v
+      Entry: 10
+      Data: 37
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <GamePlayNodeStateData>k__BackingField
+      Entry: 7
+      Data: 3|System.Collections.Generic.Dictionary`2[[UpgradeState, GameCore],[UpgradesNodeStateDataHolder,
+        GameCore]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 4|System.Collections.Generic.EnumEqualityComparer`1[[UpgradeState, GameCore]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 5|UpgradesNodeStateDataHolder, GameCore
+    - Name: Frame
+      Entry: 10
+      Data: 38
+    - Name: InfoFrame
+      Entry: 6
+      Data: 
+    - Name: LinkMaterial
+      Entry: 10
+      Data: 39
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 6|UpgradesNodeStateDataHolder, GameCore
+    - Name: Frame
+      Entry: 10
+      Data: 40
+    - Name: InfoFrame
+      Entry: 10
+      Data: 41
+    - Name: LinkMaterial
+      Entry: 10
+      Data: 42
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 7|UpgradesNodeStateDataHolder, GameCore
+    - Name: Frame
+      Entry: 10
+      Data: 43
+    - Name: InfoFrame
+      Entry: 10
+      Data: 44
+    - Name: LinkMaterial
+      Entry: 10
+      Data: 45
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 8|UpgradesNodeStateDataHolder, GameCore
+    - Name: Frame
+      Entry: 10
+      Data: 46
+    - Name: InfoFrame
+      Entry: 10
+      Data: 47
+    - Name: LinkMaterial
+      Entry: 10
+      Data: 48
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 9|UpgradesNodeStateDataHolder, GameCore
+    - Name: Frame
+      Entry: 6
+      Data: 
+    - Name: InfoFrame
+      Entry: 6
+      Data: 
+    - Name: LinkMaterial
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <PlanetMountainsObjects>k__BackingField
+      Entry: 7
+      Data: 10|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[System.Collections.Generic.List`1[[Mounain,
+        GameCore]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 11|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 12|System.Collections.Generic.List`1[[Mounain, GameCore]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 49
+    - Name: 
+      Entry: 10
+      Data: 50
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: 13|System.Collections.Generic.List`1[[Mounain, GameCore]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 51
+    - Name: 
+      Entry: 10
+      Data: 52
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 14|System.Collections.Generic.List`1[[Mounain, GameCore]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 53
+    - Name: 
+      Entry: 10
+      Data: 54
+    - Name: 
+      Entry: 10
+      Data: 55
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  <LootBoxMesh>k__BackingField: {fileID: 4896534653330551505, guid: 1113acbb7c01f5047b648e2018818a01, type: 3}
+  <FloatingAsteroid>k__BackingField: {fileID: 6945639742203076164, guid: f6ac3d5fe890c3849be5ac694bb2f549, type: 3}
+  <CraterPrefab>k__BackingField: {fileID: 5702205579660176064, guid: 319cd50f05173e240ae1a369f6da769e, type: 3}
+  <UpgradeNodePrefab>k__BackingField: {fileID: 737029184714192519, guid: 831af09f33c449c4a9676cc74d4db865, type: 3}
+  <UpgradeNodeGamePlayPrefab>k__BackingField: {fileID: 5981147511553864323, guid: 5b19a21ebd1527e42bfaad5cd6511e40, type: 3}
+  <AsteroidPrefab>k__BackingField: {fileID: 4098271166393767142, guid: 2d6bcf6074019ee4fae1adfe8e91e006, type: 3}
+  <ResourceDropViewPrefab>k__BackingField: {fileID: 2040106063574977323, guid: 84bdd07d86fe3de44aa50027fe39d35f, type: 3}
+  <LootBoxKeyDropPrefab>k__BackingField: {fileID: 5640438750129265582, guid: 8bf65e928e6aaa44cb815c9566149b1b, type: 3}
+  <MousePointer>k__BackingField: {fileID: 2800000, guid: 4d26a6bc37fb4d44bbb5583fd92310ba, type: 3}
+  <ControllerButtonSprites>k__BackingField:
+    _items:
+    - Key: 0
+      Value:
+        _items:
+        - Key: 0
+          Value: {fileID: 0}
+        - Key: 1
+          Value: {fileID: 0}
+        - Key: 2
+          Value: {fileID: 0}
+        - Key: 3
+          Value: {fileID: 0}
+        - Key: 4
+          Value: {fileID: 0}
+        - Key: 5
+          Value: {fileID: 0}
+        - Key: 6
+          Value: {fileID: 0}
+    - Key: 1
+      Value:
+        _items:
+        - Key: 0
+          Value: {fileID: 21300000, guid: 92e79bc19df9ab9489438c81b5a0daa9, type: 3}
+        - Key: 1
+          Value: {fileID: 21300000, guid: 3f8f0419528b3fb45a0c3d549a4b0d65, type: 3}
+        - Key: 2
+          Value: {fileID: 21300000, guid: f60d98d3d2ef33043a7c9fc306fd232c, type: 3}
+        - Key: 3
+          Value: {fileID: 21300000, guid: c2c1b578b96dd3e47a72ade518371b1c, type: 3}
+        - Key: 4
+          Value: {fileID: 21300000, guid: cdba52a910b2c094aab4239f621cc14d, type: 3}
+        - Key: 5
+          Value: {fileID: 21300000, guid: cdc07c2084efe404fb408616c5f4bd8c, type: 3}
+        - Key: 6
+          Value: {fileID: 21300000, guid: 4ad60a12b456f4f4a91bd7d992c09aa0, type: 3}
+    - Key: 2
+      Value:
+        _items:
+        - Key: 0
+          Value: {fileID: 21300000, guid: b89c2c53c4a3d2e44b36481ea0807841, type: 3}
+        - Key: 1
+          Value: {fileID: 21300000, guid: 3c2160d147e8a584baa8a1e0da77bf76, type: 3}
+        - Key: 2
+          Value: {fileID: 21300000, guid: 4df52619a2d19194b81b9571ea0731fb, type: 3}
+        - Key: 3
+          Value: {fileID: 21300000, guid: 2ed595f8461804b4da8d2af2391109b6, type: 3}
+        - Key: 4
+          Value: {fileID: 21300000, guid: cdba52a910b2c094aab4239f621cc14d, type: 3}
+        - Key: 5
+          Value: {fileID: 21300000, guid: a7e457c176b78764ea85a2ef6c4de80f, type: 3}
+        - Key: 6
+          Value: {fileID: 21300000, guid: 5ebe61010b005fb44b92764bdb337ffc, type: 3}
+    - Key: 3
+      Value:
+        _items:
+        - Key: 0
+          Value: {fileID: 21300000, guid: 8d5cdd6923cb1ad448a3ee405cacc51c, type: 3}
+        - Key: 1
+          Value: {fileID: 21300000, guid: c65dc95c44bd9614fad759ea903243fc, type: 3}
+        - Key: 2
+          Value: {fileID: 21300000, guid: 020de281306fcdb498a959d6f3fe21d9, type: 3}
+        - Key: 3
+          Value: {fileID: 21300000, guid: 79293f3cf269a07458824fd867197d88, type: 3}
+        - Key: 4
+          Value: {fileID: 21300000, guid: 5214d0ad981a4194297b98f2f3a2d593, type: 3}
+        - Key: 5
+          Value: {fileID: 21300000, guid: a7e457c176b78764ea85a2ef6c4de80f, type: 3}
+        - Key: 6
+          Value: {fileID: 21300000, guid: 5ebe61010b005fb44b92764bdb337ffc, type: 3}
+  <AudioSourceObjectPrefab>k__BackingField: {fileID: 6308937057286665374, guid: d2ad50198043cf14bac53d27951137ba, type: 3}
+  <SoundDataObject>k__BackingField: {fileID: 11400000, guid: 7b5e73d6d3daf6e46a23659e2aad9688, type: 2}
+  <LocalizationData>k__BackingField: {fileID: 11400000, guid: c892a2956969c154caa83199da03bc7e, type: 2}
